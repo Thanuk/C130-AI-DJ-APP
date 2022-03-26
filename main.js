@@ -48,7 +48,7 @@ function draw(){
         circle(leftWrist_x, leftWrist_y, 20);
         song2.stop();
 
-        if(song_status == "false"){
+        if(song_status == false){
             song.play();
             document.getElementById("song_name").innerHTML = " - "+ song_name;
         }
@@ -60,7 +60,7 @@ function draw(){
         circle(rightWrist_x, rightWrist_y, 20);
         song.stop();
 
-        if(song2_status == "false"){
+        if(song2_status == false){
             song2.play();
             document.getElementById("song_name").innerHTML = " - "+ song2_name;
         }
